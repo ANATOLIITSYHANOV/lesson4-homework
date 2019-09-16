@@ -1,16 +1,10 @@
-[lang="en"]{
-    border: 15px solid white;
-}
-
-* {
-    font-family: Trebuchet, Arial, sans-serif;
-   transition: all .1s ease-in;
-}
-
 body{
     background-color: #3B3E45;
     margin: 0;
     font-size: 28px;
+    font-family: Trebuchet, Arial, sans-serif;
+    transition: all .1s ease-in;
+    border: 15px solid white;
 }
 
 header, footer {
@@ -76,6 +70,7 @@ li:nth-child(2n){
 
 input:checked+span {
    text-decoration: line-through;
+   font-size: 0.8em;
 }
 
 li:hover{
